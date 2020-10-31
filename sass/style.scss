@@ -1,0 +1,1480 @@
+@import 'colors';
+@import 'fonts';
+
+
+
+
+.Barra-nav {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    border-bottom: #ebf5f9 3px solid;
+}
+
+.Logo {
+    height: 50px;
+    width: 50px;
+}
+
+header {
+    h1 {
+        font-family: $font;
+        font-weight: $extra-bold;
+        font-size: $size-titulo;
+        text-align: $align-center;
+        padding-top: 170px;
+        padding-bottom: 8px;
+        color: $Titulo-color;
+    }
+    h2 {
+        font-family: $font;
+        font-weight: $bold;
+        font-size: $size-subtitulo;
+        text-align: $align-center;
+        color: white;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    height: 400px;
+    background-image: url(https://hardwaresfera.com/wp-content/uploads/2020/07/Cougar-MARS-120-escritorio-gaming.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+.H3-quienes-somos {
+    text-align: $align-center;
+    font-family: $font;
+    font-size: $size-sections;
+    font-weight: $bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: $Section-color;
+}
+
+.Columnas-texto-video-gif {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: $align-center;
+}
+
+.Filas-video-gif {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: $align-center;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.Filas-texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: $align-center;
+    padding-left: 0px;
+}
+
+.Parrafo-quienes {
+    font-family: $font;
+    font-size: $size-parrafo;
+    font-weight: $regular;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+
+.Gif {
+    height: 250px;
+    width: 80%;
+}
+
+.Li-gif {
+    width: 100%;
+}
+
+.Video {
+    height: 250px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.Li-video {
+    width: 100%;
+}
+
+.H3-nuestros-productos {
+    text-align: center;
+    font-family: $font;
+    font-size: $size-sections;
+    font-weight: $bold;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: $Section-color;
+}
+
+.Contenedor {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Lista-links-productos {
+list-style: none;
+padding-right: 40px;
+}
+
+.Texto-productos {
+    position: absolute;
+    text-align: center;
+    font-family: $font;
+    font-weight: $bold;
+    font-size: $size-parrafo;
+    color: black;
+    margin-bottom: 0px;
+    border-bottom: 1px lightblue solid;
+    border-top: 1px lightblue solid;
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 70%;
+}
+
+.Imagen-productos {
+    height: 300px;
+    width: 240px;
+    padding-top: 20px;
+}
+
+.Body-placas-madres {
+background-image: url(https://www.freepngimg.com/thumb/assassins_creed/20672-9-altair-assassins-creed-transparent.png);
+background-size: 135%;
+background-repeat: no-repeat;
+background-position: 52% 1%;
+}
+
+.H4-placas-madres {
+    font-family: $font;
+    font-size: $size-sections;
+    font-weight: $bold;
+    text-align: $align-center;
+    margin-top: 100%;
+    margin-bottom: 60px;
+}
+
+.Div-placas-madres {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.Ul-placas-madres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.Contenedor-placas-madres {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.Imagen-placas-madres {
+    width: 100%;
+    height: 250px;
+}
+
+.Imagen-metodos-pago:hover, .Imagenes-footer-contactos:hover {
+    transform: scale(1.25,1);
+    transition: 0.5s;
+}
+
+.Imagen-placas-madres:hover, .Imagen-placas-video:hover, .Imagen-procesadores:hover, .Imagen-discos-duros:hover, .Imagen-fuentes-poder:hover, .Imagen-gabinetes:hover, .Imagen-memorias-ram:hover, .Imagen-perifericos:hover {
+    transform: scale(1.1,1);
+    transition: 0.5s;
+}
+
+.Imagen-productos:hover {
+    transform: scale(1.05,1);
+    transition: 0.5s;
+}
+
+.Boton-contactos:hover {
+    transform: translateX(15px);
+    transition: 0.5s;
+}
+
+.Nav-color:hover {
+    color: $Section-color !important;
+}
+
+.Nav-drop-color:hover {
+    background-color: $Titulo-color !important;
+}
+
+.Card-margin {
+    margin-top: 20px;
+}
+
+.Titulo-placas-madres {
+font-family: $font;
+font-size: $size-subtitulo;
+font-weight: $bold;
+text-align: $align-center;
+}
+
+.Caracteristicas-placas-madres {
+list-style: disc;
+font-family: $font;
+font-size: $size-parrafo;
+font-weight: $regular;
+text-align: $align-left;
+}
+
+.Body-procesadores {
+    background-image: url(https://www.freepngimg.com/thumb/the_witcher/31524-5-the-witcher-hd.png);
+    background-repeat: no-repeat;
+    background-size: 113%;
+    background-position: 40% 2.4%;
+}
+
+.H4-procesadores {
+    @extend .H4-placas-madres;
+}
+
+.Div-procesadores {
+    @extend .Div-placas-madres;
+}
+
+.Ul-procesadores {
+    @extend .Ul-placas-madres;
+}
+
+.Contenedor-procesadores {
+    @extend .Contenedor-placas-madres;
+}
+
+.Imagen-procesadores {
+    @extend .Imagen-placas-madres;
+}
+
+.Titulo-procesadores {
+    @extend .Titulo-placas-madres;
+}
+
+.Caracteristicas-procesadores {
+    @extend .Caracteristicas-placas-madres;
+}
+
+.H4-placas-video {
+    @extend .H4-placas-madres;
+}
+
+.Div-placas-video {
+    @extend .Div-placas-madres;
+}
+
+.Ul-placas-video {
+    @extend .Ul-placas-madres;
+}
+
+.Contenedor-placas-video {
+    @extend .Contenedor-placas-madres;
+}
+
+.Imagen-placas-video {
+    @extend .Imagen-placas-madres;
+}
+
+.Titulo-placas-video {
+    @extend .Titulo-placas-madres;
+}
+
+.Caracteristicas-placas-video {
+    @extend .Caracteristicas-placas-madres;
+}
+
+.Body-placas-video {
+    background-image: url(https://www.freepngimg.com/thumb/gta/20170-5-niko-bellic-file.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.H4-gabinetes {
+    @extend .H4-placas-madres;
+}
+
+.Div-gabinetes {
+    @extend .Div-placas-madres;
+}
+
+.Ul-gabinetes {
+    @extend .Ul-placas-madres;
+}
+
+.Contenedor-gabinetes {
+    @extend .Contenedor-placas-madres;
+}
+
+.Imagen-gabinetes {
+    @extend .Imagen-placas-madres;
+}
+
+.Titulo-gabinetes {
+    @extend .Titulo-placas-madres;
+}
+
+.Caracteristicas-gabinetes {
+    @extend .Caracteristicas-placas-madres;
+}
+
+.Body-gabinetes {
+    background-image: url(https://www.freepngimg.com/thumb/assassins_creed_unity/29011-5-assassins-creed-unity-free-download.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 42% 1.4%;
+}
+
+.H4-fuentes-poder {
+    @extend .H4-placas-madres;
+}
+
+.Div-fuentes-poder {
+    @extend .Div-placas-madres;
+}
+
+.Ul-fuentes-poder {
+    @extend .Ul-placas-madres;
+}
+
+.Contenedor-fuentes-poder {
+    @extend .Contenedor-placas-madres;
+}
+
+.Imagen-fuentes-poder {
+    @extend .Imagen-placas-madres;
+}
+
+.Titulo-fuentes-poder {
+    @extend .Titulo-placas-madres;
+}
+
+.Caracteristicas-fuentes-poder {
+    @extend .Caracteristicas-placas-madres;
+}
+
+.Body-fuentes-poder {
+    background-image: url(https://www.freepngimg.com/thumb/hitman/2-2-hitman-png.png);
+    background-repeat: no-repeat;
+    background-size: 128%;
+    background-position: 40% 1%;
+}
+
+.H4-memorias-ram {
+    @extend .H4-placas-madres;
+}
+
+.Div-memorias-ram {
+    @extend .Div-placas-madres;
+}
+
+.Ul-memorias-ram {
+    @extend .Ul-placas-madres;
+}
+
+.Contenedor-memorias-ram {
+    @extend .Contenedor-placas-madres;
+}
+
+.Imagen-memorias-ram {
+    @extend .Imagen-placas-madres;
+}
+
+.Titulo-memorias-ram {
+    @extend .Titulo-placas-madres;
+}
+
+.Caracteristicas-memorias-ram {
+    @extend .Caracteristicas-placas-madres;
+}
+
+.Body-memorias-ram {
+    background-image: url(https://www.freepngimg.com/thumb/zed_the_master_of_shadows/5-2-zed-high-quality-png.png);
+    background-repeat: no-repeat;
+    background-size: 156%;
+    background-position: 10% 3%;
+}
+
+.H4-discos-duros {
+    @extend .H4-placas-madres;
+}
+
+.Div-discos-duros {
+    @extend .Div-placas-madres;
+}
+
+.Ul-discos-duros {
+    @extend .Ul-placas-madres;
+}
+
+.Contenedor-discos-duros {
+    @extend .Contenedor-placas-madres;
+}
+
+.Imagen-discos-duros {
+    @extend .Imagen-placas-madres;
+}
+
+.Titulo-discos-duros {
+    @extend .Titulo-placas-madres;
+}
+
+.Caracteristicas-discos-duros {
+    @extend .Caracteristicas-placas-madres;
+}
+
+.Body-discos-duros {
+    background-image: url(https://www.freepngimg.com/thumb/dark_souls/34150-2-dark-souls-solaire-clipart.png);
+    background-repeat: no-repeat;
+    background-size: 115%;
+    background-position: 41% 1.4%;
+}
+
+.H4-perifericos {
+    @extend .H4-placas-madres;
+}
+
+.Div-perifericos {
+    @extend .Div-placas-madres;
+}
+
+.Ul-perifericos {
+    @extend .Ul-placas-madres;
+}
+
+.Contenedor-perifericos {
+    @extend .Contenedor-placas-madres;
+}
+
+.Imagen-perifericos {
+    @extend .Imagen-placas-madres;
+}
+
+.Titulo-perifericos {
+    @extend .Titulo-placas-madres;
+}
+
+.Caracteristicas-perifericos {
+    @extend .Caracteristicas-placas-madres;
+}
+
+.Div-carousel {
+    width: 60% !important;
+    height: 10%;
+    margin: 0 auto;
+    border: solid 1px $Titulo-color;
+}
+
+.Estrellas {
+    display: flex;
+    margin: 0 auto;
+    height: 3%;
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.Nombre-val {
+    font-family: $font;
+    font-size: $size-parrafo;
+    font-weight: $bold;
+    text-align: $align-center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Texto-valoracion {
+    font-family: $font;
+    font-size: $size-parrafo;
+    font-weight: $regular;
+    text-align: $align-center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Body-perifericos {
+    background-image: url(https://vignette.wikia.nocookie.net/mkmobile/images/e/eb/Tn_cassiecage_a3.png/revision/latest?cb=20200525013907&path-prefix=es);
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: 52% 1.2%;
+}
+
+.H3-metodos-pago {
+    font-family: $font;
+    font-size: $size-sections;
+    font-weight: $bold;
+    text-align: $align-center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: $Section-color;
+}
+
+.Ul-metodos-pago {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+list-style: none;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.Imagen-metodos-pago {
+width: 112px;
+height: 100px;
+padding-top: 10px;
+}
+
+.Form-contactos {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Ul-contactos {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.Div-imagen-boton {
+    display: flex;
+    flex-direction: row;
+}
+
+.Imagen-contactos {
+    height: 100px;
+    width: 100px;
+}
+
+.Boton-contactos {
+    margin-top: 10px;
+}
+
+.H3-contactos {
+    font-family: $font;
+    font-size: $size-sections;
+    font-weight: $bold;
+    text-align: $align-center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: $Section-color;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.Ul-footer {
+    font-family: $font;
+    font-size: $size-parrafo;
+    font-weight: $regular;
+    text-align: $align-left;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    padding-left: 25%;
+}
+
+.H4-footer {
+    font-family: $font;
+    font-size: $size-subtitulo;
+    font-weight: $bold;
+    text-align: $align-center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.Ul-footer-contactos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.H4-footer-contactos {
+    font-family: $font;
+    font-size: $size-subtitulo;
+    font-weight: $bold;
+    text-align: $align-center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.Imagenes-footer-contactos {
+    height: 50px;
+    width: 50px;
+}
+
+.H4-footer-ubicacion {
+    font-family: $font;
+    font-size: $size-subtitulo;
+    font-weight: $bold;
+    text-align: $align-center;
+}
+
+.H4-placas-madres {
+    color: $Section-color;
+}
+
+.H4-valoraciones {
+    text-align: $align-center;
+    font-family: $font;
+    font-size: $size-subtitulo;
+    font-weight: $bold;
+    color: $Section-color;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+    color: $Titulo-color;
+}
+
+.MapaGoogle {
+    height: 250px;
+    width: 80%;
+
+}
+
+.Div-mapa {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 576px) {
+.Video {
+    width: 70%;
+}
+
+.Gif {
+    width: 70%;
+}
+
+.Texto-productos {
+    width: 49%;
+}
+
+.Ul-footer-contactos {
+    justify-content: space-evenly;
+}
+
+.Ul-footer {
+    padding-left: 35%;
+}
+
+.MapaGoogle {
+    width: 75%;
+}
+
+.H4-placas-madres {
+    margin-top: 60%;
+}
+
+.Body-placas-madres {
+    background-size: 100%;
+}
+
+.Body-procesadores {
+    background-size: 80%;
+    background-position: 55% 2.4%;
+}
+
+.Body-placas-video {
+    background-size: 80%;
+    background-position: 65% 1%;
+}
+
+.Body-gabinetes {
+    background-size: 85%;
+}
+
+.Body-fuentes-poder {
+    background-size: 100%;
+}
+
+.Body-memorias-ram {
+    background-size: 123%;
+    background-position: 10% 3%;
+}
+
+.Body-discos-duros {
+    background-size: 74%;
+    background-position: 41% 1.5%;
+}
+
+.Body-perifericos {
+    background-size: 115%;
+    background-position: -14% 2%;
+}
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    header {
+        h1 {
+            font-size: $size-titulo-M;
+            padding-top: 30px;
+            padding-bottom: 0px;
+            color: $Titulo-color;
+        }
+        h2 {
+            font-size: $size-subtitulo-L;
+            color: $Subtitulo-color;
+        }
+    }
+
+    .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+        font-size: $size-sections-M;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .H4-placas-madres {
+        font-size: $size-sections-M;
+    }
+
+    .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+        font-size: $size-subtitulo-M;
+    }
+
+    .Video {
+        width: 55%;
+        height: 280px;
+    }
+
+    .Gif {
+        width: 55%;
+        height: 280px;
+        
+    }
+
+    .Texto-productos {
+        width: 35%;
+    }
+
+    .Ul-footer-contactos {
+        justify-content: space-evenly;
+    }
+
+    .Ul-footer {
+        padding-left: 38%;
+    }
+
+    .H4-placas-madres {
+        margin-top: 38%;
+    }
+
+    .Ul-placas-madres {
+        padding-left: 38px;
+    }
+
+    .Body-placas-madres {
+        background-size: 95%;
+    }
+
+    .Body-procesadores {
+        background-size: 66%;
+        background-position: 58% 2.4%;
+    }
+
+    .Body-placas-video {
+        background-size: 65%;
+        background-position: 56% 1%;
+    }
+
+    .Body-gabinetes {
+        background-size: 65%;
+        background-position: 43% 1.4%;
+    }
+
+    .Body-fuentes-poder {
+        background-size: 82%;
+    }
+
+    .Body-memorias-ram {
+        background-size: 100%;
+    }
+
+    .Body-discos-duros {
+        background-size: 60%;
+        background-position: 54% 1.4%;
+    }
+
+    .Body-perifericos {
+        background-size: 97%;
+    }
+
+    .Estrellas {
+        height: 50px;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        h1 {
+            font-size: $size-titulo-M;
+            padding-top: 30px;
+            padding-bottom: 0px;
+            color: $Titulo-color;
+        }
+        h2 {
+            font-size: $size-subtitulo-M;
+            color: $Subtitulo-color;
+        }
+    }
+
+    .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+        font-size: $size-sections-M;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .H4-placas-madres {
+        font-size: $size-sections-M;
+    }
+
+    .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+        font-size: $size-subtitulo-M;
+    }
+
+    .Video {
+        width: 65%;
+    }
+
+    .Gif {
+        width: 65%;
+    }
+
+    .Filas-video-gif {
+        flex-wrap: nowrap;
+    }
+
+    .Filas-texto {
+        flex-wrap: nowrap;
+        margin-bottom: 5%;
+    }
+
+    .Parrafo-quienes {
+        width: 65%;
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .Texto-productos {
+        width: 100%;
+    }
+
+    .Ul-metodos-pago {
+        justify-content: space-evenly;
+    }
+
+    .Form-contactos {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .Ul-footer-contactos {
+        justify-content: space-evenly;
+    }
+
+    .Ul-footer {
+        padding-left: 41%;
+    }
+
+    header {
+        height: 450px;
+    }
+
+    .Ul-placas-madres {
+        justify-content: space-around;
+    }
+
+    .H4-placas-madres {
+        margin-top: 35%;
+    }
+
+    .Body-placas-madres {
+        background-size: 75%;
+    }
+
+    .Body-procesadores {
+        background-size: 47%;
+        background-position: 50% 5%;
+    }
+
+    .Body-placas-video {
+        background-size: 40%;
+        background-position: 56% 1%;
+    }
+
+    .Body-gabinetes {
+        background-size: 48%;
+        background-position: 43% 3%;
+    }
+
+    .Body-fuentes-poder {
+        background-size: 54%;
+        background-position: 51% 5%;
+    }
+
+    .Body-memorias-ram {
+        background-size: 73%;
+        background-position: 100% 3%;
+    }
+
+    .Body-discos-duros {
+        background-size: 44%;
+        background-position: 54% 1%;
+    }
+
+    .Body-perifericos {
+        background-size: 75%;
+        background-position: 8% 1.2%;
+    }
+
+    .Lista-links-productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .Estrellas {
+        height: 50px;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    header {
+        h1 {
+            font-size: $size-titulo-M;
+            padding-top: 70px;
+            padding-bottom: 0px;
+            color: $Titulo-color;
+        }
+        h2 {
+            font-size: $size-subtitulo-M;
+            color: $Subtitulo-color;
+        }
+    }
+
+    .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+        font-size: $size-sections-M;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .H4-placas-madres {
+        font-size: $size-sections-M;
+    }
+
+    .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+        font-size: $size-subtitulo-M;
+    }
+
+    .Barra-nav-flex {
+        justify-content: flex-end;
+    }
+
+    header {
+        height: 550px;
+    }
+
+    .Video {
+        width: 70%;
+        height: 325px;
+    }
+
+    .Gif {
+        width: 70%;
+        height: 325px;
+    }
+
+    .Filas-video-gif {
+        flex-wrap: nowrap;
+    }
+
+    .Filas-texto {
+        flex-wrap: nowrap;
+        margin-bottom: 5%;
+    }
+
+    .Parrafo-quienes {
+        width: 70%;
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .Lista-links-productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .Texto-productos {
+        width: 100%;
+    }
+
+    .Ul-metodos-pago {
+        justify-content: space-evenly;
+    }
+
+    .Form-contactos {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .Ul-footer-contactos {
+        justify-content: space-evenly;
+    }
+
+    .Ul-footer {
+        padding-left: 43%;
+    }
+
+    .Ul-placas-madres {
+        justify-content: space-around;
+    }
+
+    .H4-placas-madres {
+        margin-top: 25%;
+    }
+
+    .Body-placas-madres {
+        background-size: 60%;
+    }
+
+    .Body-procesadores {
+        background-size: 38%;
+        background-position: 50% 5%;
+    }
+
+    .Body-placas-video {
+        background-size: 40%;
+        background-position: 56% 1%;
+    }
+
+    .Body-gabinetes {
+        background-size: 48%;
+        background-position: 43% 3%;
+    }
+
+    .Body-fuentes-poder {
+        background-size: 54%;
+        background-position: 51% 5%;
+    }
+
+    .Body-memorias-ram {
+        background-size: 73%;
+        background-position: 100% 3%;
+    }
+
+    .Body-discos-duros {
+        background-size: 40%;
+        background-position: 49% 3%;
+    }
+
+    .Body-perifericos {
+        background-size: 44%;
+        background-position: 12% 1.2%;
+    }
+
+    .Estrellas {
+        height: 40px;
+        width: 30%;
+    }
+
+    .H4-valoraciones {
+        font-size: $size-subtitulo-M;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+    header {
+        h1 {
+            font-size: $size-titulo-L;
+            padding-top: 100px;
+            padding-bottom: 0px;
+            color: $Titulo-color;
+        }
+        h2 {
+            font-size: $size-subtitulo-L;
+            color: $Subtitulo-color;
+        }
+    }
+
+    .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+        font-size: $size-sections-L;
+        color: $Section-color;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .H4-placas-madres {
+        font-size: $size-sections-L;
+        color: $Section-color;
+    }
+
+    .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+        font-size: $size-subtitulo-L;
+        color: $Titulo-color;
+    }
+
+    .Barra-nav-flex {
+        justify-content: flex-end;
+    }
+
+    header {
+        height: 625px;
+    }
+
+    .Video {
+        width: 70%;
+        height: 350px;
+    }
+
+    .Gif {
+        width: 70%;
+        height: 350px;
+    }
+
+    .Filas-video-gif {
+        flex-wrap: nowrap;
+    }
+
+    .Filas-texto {
+        flex-wrap: nowrap;
+        margin-bottom: 5%;
+    }
+
+    .Parrafo-quienes {
+        width: 70%;
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .Lista-links-productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .Texto-productos {
+        width: 100%;
+    }
+
+    .Ul-metodos-pago {
+        justify-content: space-evenly;
+    }
+
+    .Form-contactos {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .Ul-footer-contactos {
+        justify-content: space-evenly;
+    }
+
+    .Ul-footer {
+        padding-left: 44%;
+    }
+
+    .Ul-placas-madres {
+        justify-content: space-around;
+    }
+
+    .Div-placas-madres {
+        width: 65%;
+    }
+
+    .H4-placas-madres {
+        margin-top: 30%;
+    }
+
+    .Body-placas-madres {
+        background-size: 50%;
+    }
+
+    .Body-procesadores {
+        background-size: 31%;
+        background-position: 50% 12%;
+    }
+
+    .Body-placas-video {
+        background-size: 40%;
+        background-position: 56% 1%;
+    }
+
+    .Body-gabinetes {
+        background-size: 48%;
+        background-position: 43% 3%;
+    }
+
+    .Body-fuentes-poder {
+        background-size: 54%;
+        background-position: 51% 5%;
+    }
+
+    .Body-memorias-ram {
+        background-size: 46%;
+        background-position: 93% 3%;
+    }
+
+    .Body-discos-duros {
+        background-size: 36%;
+        background-position: 49% 3%;
+    }
+
+    .Body-perifericos {
+        background-size: 37%;
+        background-position: 24% 3%;
+    }
+
+    .Estrellas {
+        height: 40px;
+        width: 25%;
+    }
+
+    .H4-valoraciones {
+        font-size: $size-subtitulo-L;
+    }
+
+    .Nombre-val {
+        font-size: $size-parrafo-L;
+    }
+
+    .Texto-valoracion {
+        font-size: $size-parrafo-L;
+    }
+
+    .Div-carousel {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1800px) {
+    header {
+        h1 {
+            font-size: $size-titulo-L;
+            padding-top: 100px;
+            padding-bottom: 0px;
+            color: $Titulo-color;
+        }
+        h2 {
+            font-size: $size-subtitulo-L;
+            color: $Subtitulo-color;
+        }
+    }
+
+    .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+        font-size: $size-sections-L;
+        color: $Section-color;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .H4-placas-madres {
+        font-size: $size-sections-L;
+        color: $Section-color;
+    }
+
+    .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+        font-size: $size-subtitulo-L;
+        color: $Titulo-color;
+    }
+
+    .Parrafo-quienes {
+        font-size: $size-parrafo-L;
+    }
+
+    .Texto-productos {
+        font-size: $size-parrafo-L;
+    }
+
+    .Ul-footer li {
+        font-size: $size-parrafo-L;
+    }
+
+    .Barra-nav-flex {
+        justify-content: flex-end;
+    }
+
+    header {
+        height: 800px;
+    }
+
+    .Video {
+        width: 70%;
+        height: 550px;
+    }
+
+    .Gif {
+        width: 70%;
+        height: 550px;
+    }
+
+    .Filas-video-gif {
+        flex-wrap: nowrap;
+    }
+
+    .Filas-texto {
+        flex-wrap: nowrap;
+        margin-bottom: 5%;
+    }
+
+    .Parrafo-quienes {
+        width: 70%;
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .Lista-links-productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .Imagen-productos {
+        height: 350px;
+        width: 285px;
+    }
+
+    .Texto-productos {
+        width: 100%;
+    }
+
+    .Ul-metodos-pago {
+        justify-content: space-evenly;
+    }
+
+    .Form-contactos {
+        margin: 0 auto;
+        width: 60%;
+        font-size: $size-parrafo-L;
+    }
+
+    .Ul-footer-contactos {
+        justify-content: space-evenly;
+    }
+
+    .Ul-footer {
+        padding-left: 45%;
+    }
+
+    .Ul-placas-madres {
+        justify-content: space-around;
+    }
+
+    .Div-placas-madres {
+        width: 65%;
+    }
+
+    .H4-placas-madres {
+        margin-top: 30%;
+    }
+
+    .Body-placas-madres {
+        background-size: 50%;
+    }
+
+    .Body-procesadores {
+        background-size: 31%;
+        background-position: 50% 12%;
+    }
+
+    .Body-placas-video {
+        background-size: 31%;
+        background-position: 52% 1%;
+    }
+
+    .Body-gabinetes {
+        background-size: 38%;
+        background-position: 55% 3%;
+    }
+
+    .Body-fuentes-poder {
+        background-size: 40%;
+        background-position: 51% 5%;
+    }
+
+    .Body-memorias-ram {
+        background-size: 46%;
+        background-position: 93% 3%;
+    }
+
+    .Body-discos-duros {
+        background-size: 36%;
+        background-position: 49% 3%;
+    }
+
+    .Body-perifericos {
+        background-size: 37%;
+        background-position: 24% 3%;
+    }
+
+    .MapaGoogle {
+        width: 70%;
+    }
+
+    .Estrellas {
+        height: 35px;
+        width: 20%;
+    }
+
+    .H4-valoraciones {
+        font-size: $size-subtitulo-L;
+    }
+
+    .Nombre-val {
+        font-size: $size-parrafo-L;
+    }
+
+    .Texto-valoracion {
+        font-size: $size-parrafo-L;
+    }
+
+    .Div-carousel {
+        width: 50% !important;
+    }
+}

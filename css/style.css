@@ -1,0 +1,1263 @@
+.Barra-nav {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+  border-bottom: #ebf5f9 3px solid;
+}
+
+.Logo {
+  height: 50px;
+  width: 50px;
+}
+
+header {
+  height: 400px;
+  background-image: url(https://hardwaresfera.com/wp-content/uploads/2020/07/Cougar-MARS-120-escritorio-gaming.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: black;
+}
+header h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 170px;
+  padding-bottom: 8px;
+  color: #9fd2e3;
+}
+header h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.H3-quienes-somos {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: #379dc0;
+}
+
+.Columnas-texto-video-gif {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+
+.Filas-video-gif {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.Filas-texto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.Parrafo-quienes {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+}
+
+.Gif {
+  height: 250px;
+  width: 80%;
+}
+
+.Li-gif {
+  width: 100%;
+}
+
+.Video {
+  height: 250px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.Li-video {
+  width: 100%;
+}
+
+.H3-nuestros-productos {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: #379dc0;
+}
+
+.Contenedor {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Lista-links-productos {
+  list-style: none;
+  padding-right: 40px;
+}
+
+.Texto-productos {
+  position: absolute;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+  margin-bottom: 0px;
+  border-bottom: 1px lightblue solid;
+  border-top: 1px lightblue solid;
+  background-color: rgba(255, 255, 255, 0.589);
+  width: 70%;
+}
+
+.Imagen-productos {
+  height: 300px;
+  width: 240px;
+  padding-top: 20px;
+}
+
+.Body-placas-madres {
+  background-image: url(https://www.freepngimg.com/thumb/assassins_creed/20672-9-altair-assassins-creed-transparent.png);
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: 52% 1%;
+}
+
+.H4-placas-madres, .H4-perifericos, .H4-discos-duros, .H4-memorias-ram, .H4-fuentes-poder, .H4-gabinetes, .H4-placas-video, .H4-procesadores {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100%;
+  margin-bottom: 60px;
+}
+
+.Div-placas-madres, .Div-perifericos, .Div-discos-duros, .Div-memorias-ram, .Div-fuentes-poder, .Div-gabinetes, .Div-placas-video, .Div-procesadores {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.Ul-placas-madres, .Ul-perifericos, .Ul-discos-duros, .Ul-memorias-ram, .Ul-fuentes-poder, .Ul-gabinetes, .Ul-placas-video, .Ul-procesadores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.Contenedor-placas-madres, .Contenedor-perifericos, .Contenedor-discos-duros, .Contenedor-memorias-ram, .Contenedor-fuentes-poder, .Contenedor-gabinetes, .Contenedor-placas-video, .Contenedor-procesadores {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.Imagen-placas-madres, .Imagen-perifericos, .Imagen-discos-duros, .Imagen-memorias-ram, .Imagen-fuentes-poder, .Imagen-gabinetes, .Imagen-placas-video, .Imagen-procesadores {
+  width: 100%;
+  height: 250px;
+}
+
+.Imagen-metodos-pago:hover, .Imagenes-footer-contactos:hover {
+  transform: scale(1.25, 1);
+  transition: 0.5s;
+}
+
+.Imagen-placas-madres:hover, .Imagen-placas-video:hover, .Imagen-procesadores:hover, .Imagen-discos-duros:hover, .Imagen-fuentes-poder:hover, .Imagen-gabinetes:hover, .Imagen-memorias-ram:hover, .Imagen-perifericos:hover {
+  transform: scale(1.1, 1);
+  transition: 0.5s;
+}
+
+.Imagen-productos:hover {
+  transform: scale(1.05, 1);
+  transition: 0.5s;
+}
+
+.Boton-contactos:hover {
+  transform: translateX(15px);
+  transition: 0.5s;
+}
+
+.Nav-color:hover {
+  color: #379dc0 !important;
+}
+
+.Nav-drop-color:hover {
+  background-color: #9fd2e3 !important;
+}
+
+.Card-margin {
+  margin-top: 20px;
+}
+
+.Titulo-placas-madres, .Titulo-perifericos, .Titulo-discos-duros, .Titulo-memorias-ram, .Titulo-fuentes-poder, .Titulo-gabinetes, .Titulo-placas-video, .Titulo-procesadores {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Caracteristicas-placas-madres, .Caracteristicas-perifericos, .Caracteristicas-discos-duros, .Caracteristicas-memorias-ram, .Caracteristicas-fuentes-poder, .Caracteristicas-gabinetes, .Caracteristicas-placas-video, .Caracteristicas-procesadores {
+  list-style: disc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.Body-procesadores {
+  background-image: url(https://www.freepngimg.com/thumb/the_witcher/31524-5-the-witcher-hd.png);
+  background-repeat: no-repeat;
+  background-size: 113%;
+  background-position: 40% 2.4%;
+}
+
+.Body-placas-video {
+  background-image: url(https://www.freepngimg.com/thumb/gta/20170-5-niko-bellic-file.png);
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+
+.Body-gabinetes {
+  background-image: url(https://www.freepngimg.com/thumb/assassins_creed_unity/29011-5-assassins-creed-unity-free-download.png);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: 42% 1.4%;
+}
+
+.Body-fuentes-poder {
+  background-image: url(https://www.freepngimg.com/thumb/hitman/2-2-hitman-png.png);
+  background-repeat: no-repeat;
+  background-size: 128%;
+  background-position: 40% 1%;
+}
+
+.Body-memorias-ram {
+  background-image: url(https://www.freepngimg.com/thumb/zed_the_master_of_shadows/5-2-zed-high-quality-png.png);
+  background-repeat: no-repeat;
+  background-size: 156%;
+  background-position: 10% 3%;
+}
+
+.Body-discos-duros {
+  background-image: url(https://www.freepngimg.com/thumb/dark_souls/34150-2-dark-souls-solaire-clipart.png);
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position: 41% 1.4%;
+}
+
+.Div-carousel {
+  width: 60% !important;
+  height: 10%;
+  margin: 0 auto;
+  border: solid 1px #9fd2e3;
+}
+
+.Estrellas {
+  display: flex;
+  margin: 0 auto;
+  height: 3%;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.Nombre-val {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Texto-valoracion {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Body-perifericos {
+  background-image: url(https://vignette.wikia.nocookie.net/mkmobile/images/e/eb/Tn_cassiecage_a3.png/revision/latest?cb=20200525013907&path-prefix=es);
+  background-repeat: no-repeat;
+  background-size: 170%;
+  background-position: 52% 1.2%;
+}
+
+.H3-metodos-pago {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: #379dc0;
+}
+
+.Ul-metodos-pago {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Imagen-metodos-pago {
+  width: 112px;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.Form-contactos {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Ul-contactos {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.Div-imagen-boton {
+  display: flex;
+  flex-direction: row;
+}
+
+.Imagen-contactos {
+  height: 100px;
+  width: 100px;
+}
+
+.Boton-contactos {
+  margin-top: 10px;
+}
+
+.H3-contactos {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: #379dc0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.Ul-footer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  padding-left: 25%;
+}
+
+.H4-footer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.Ul-footer-contactos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.H4-footer-contactos {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.Imagenes-footer-contactos {
+  height: 50px;
+  width: 50px;
+}
+
+.H4-footer-ubicacion {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+  color: #379dc0;
+}
+
+.H4-valoraciones {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #379dc0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+  color: #9fd2e3;
+}
+
+.MapaGoogle {
+  height: 250px;
+  width: 80%;
+}
+
+.Div-mapa {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 576px) {
+  .Video {
+    width: 70%;
+  }
+
+  .Gif {
+    width: 70%;
+  }
+
+  .Texto-productos {
+    width: 49%;
+  }
+
+  .Ul-footer-contactos {
+    justify-content: space-evenly;
+  }
+
+  .Ul-footer {
+    padding-left: 35%;
+  }
+
+  .MapaGoogle {
+    width: 75%;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    margin-top: 60%;
+  }
+
+  .Body-placas-madres {
+    background-size: 100%;
+  }
+
+  .Body-procesadores {
+    background-size: 80%;
+    background-position: 55% 2.4%;
+  }
+
+  .Body-placas-video {
+    background-size: 80%;
+    background-position: 65% 1%;
+  }
+
+  .Body-gabinetes {
+    background-size: 85%;
+  }
+
+  .Body-fuentes-poder {
+    background-size: 100%;
+  }
+
+  .Body-memorias-ram {
+    background-size: 123%;
+    background-position: 10% 3%;
+  }
+
+  .Body-discos-duros {
+    background-size: 74%;
+    background-position: 41% 1.5%;
+  }
+
+  .Body-perifericos {
+    background-size: 115%;
+    background-position: -14% 2%;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  header h1 {
+    font-size: 90px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: #9fd2e3;
+  }
+  header h2 {
+    font-size: 35px;
+    color: #eaf5f9;
+  }
+
+  .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    font-size: 45px;
+  }
+
+  .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+    font-size: 23px;
+  }
+
+  .Video {
+    width: 55%;
+    height: 280px;
+  }
+
+  .Gif {
+    width: 55%;
+    height: 280px;
+  }
+
+  .Texto-productos {
+    width: 35%;
+  }
+
+  .Ul-footer-contactos {
+    justify-content: space-evenly;
+  }
+
+  .Ul-footer {
+    padding-left: 38%;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    margin-top: 38%;
+  }
+
+  .Ul-placas-madres, .Ul-procesadores, .Ul-placas-video, .Ul-gabinetes, .Ul-fuentes-poder, .Ul-memorias-ram, .Ul-discos-duros, .Ul-perifericos {
+    padding-left: 38px;
+  }
+
+  .Body-placas-madres {
+    background-size: 95%;
+  }
+
+  .Body-procesadores {
+    background-size: 66%;
+    background-position: 58% 2.4%;
+  }
+
+  .Body-placas-video {
+    background-size: 65%;
+    background-position: 56% 1%;
+  }
+
+  .Body-gabinetes {
+    background-size: 65%;
+    background-position: 43% 1.4%;
+  }
+
+  .Body-fuentes-poder {
+    background-size: 82%;
+  }
+
+  .Body-memorias-ram {
+    background-size: 100%;
+  }
+
+  .Body-discos-duros {
+    background-size: 60%;
+    background-position: 54% 1.4%;
+  }
+
+  .Body-perifericos {
+    background-size: 97%;
+  }
+
+  .Estrellas {
+    height: 50px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header h1 {
+    font-size: 90px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: #9fd2e3;
+  }
+  header h2 {
+    font-size: 23px;
+    color: #eaf5f9;
+  }
+
+  .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    font-size: 45px;
+  }
+
+  .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+    font-size: 23px;
+  }
+
+  .Video {
+    width: 65%;
+  }
+
+  .Gif {
+    width: 65%;
+  }
+
+  .Filas-video-gif {
+    flex-wrap: nowrap;
+  }
+
+  .Filas-texto {
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
+  }
+
+  .Parrafo-quienes {
+    width: 65%;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Texto-productos {
+    width: 100%;
+  }
+
+  .Ul-metodos-pago {
+    justify-content: space-evenly;
+  }
+
+  .Form-contactos {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .Ul-footer-contactos {
+    justify-content: space-evenly;
+  }
+
+  .Ul-footer {
+    padding-left: 41%;
+  }
+
+  header {
+    height: 450px;
+  }
+
+  .Ul-placas-madres, .Ul-procesadores, .Ul-placas-video, .Ul-gabinetes, .Ul-fuentes-poder, .Ul-memorias-ram, .Ul-discos-duros, .Ul-perifericos {
+    justify-content: space-around;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    margin-top: 35%;
+  }
+
+  .Body-placas-madres {
+    background-size: 75%;
+  }
+
+  .Body-procesadores {
+    background-size: 47%;
+    background-position: 50% 5%;
+  }
+
+  .Body-placas-video {
+    background-size: 40%;
+    background-position: 56% 1%;
+  }
+
+  .Body-gabinetes {
+    background-size: 48%;
+    background-position: 43% 3%;
+  }
+
+  .Body-fuentes-poder {
+    background-size: 54%;
+    background-position: 51% 5%;
+  }
+
+  .Body-memorias-ram {
+    background-size: 73%;
+    background-position: 100% 3%;
+  }
+
+  .Body-discos-duros {
+    background-size: 44%;
+    background-position: 54% 1%;
+  }
+
+  .Body-perifericos {
+    background-size: 75%;
+    background-position: 8% 1.2%;
+  }
+
+  .Lista-links-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .Estrellas {
+    height: 50px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  header h1 {
+    font-size: 90px;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    color: #9fd2e3;
+  }
+  header h2 {
+    font-size: 23px;
+    color: #eaf5f9;
+  }
+
+  .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    font-size: 45px;
+  }
+
+  .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+    font-size: 23px;
+  }
+
+  .Barra-nav-flex {
+    justify-content: flex-end;
+  }
+
+  header {
+    height: 550px;
+  }
+
+  .Video {
+    width: 70%;
+    height: 325px;
+  }
+
+  .Gif {
+    width: 70%;
+    height: 325px;
+  }
+
+  .Filas-video-gif {
+    flex-wrap: nowrap;
+  }
+
+  .Filas-texto {
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
+  }
+
+  .Parrafo-quienes {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Lista-links-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .Texto-productos {
+    width: 100%;
+  }
+
+  .Ul-metodos-pago {
+    justify-content: space-evenly;
+  }
+
+  .Form-contactos {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .Ul-footer-contactos {
+    justify-content: space-evenly;
+  }
+
+  .Ul-footer {
+    padding-left: 43%;
+  }
+
+  .Ul-placas-madres, .Ul-procesadores, .Ul-placas-video, .Ul-gabinetes, .Ul-fuentes-poder, .Ul-memorias-ram, .Ul-discos-duros, .Ul-perifericos {
+    justify-content: space-around;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    margin-top: 25%;
+  }
+
+  .Body-placas-madres {
+    background-size: 60%;
+  }
+
+  .Body-procesadores {
+    background-size: 38%;
+    background-position: 50% 5%;
+  }
+
+  .Body-placas-video {
+    background-size: 40%;
+    background-position: 56% 1%;
+  }
+
+  .Body-gabinetes {
+    background-size: 48%;
+    background-position: 43% 3%;
+  }
+
+  .Body-fuentes-poder {
+    background-size: 54%;
+    background-position: 51% 5%;
+  }
+
+  .Body-memorias-ram {
+    background-size: 73%;
+    background-position: 100% 3%;
+  }
+
+  .Body-discos-duros {
+    background-size: 40%;
+    background-position: 49% 3%;
+  }
+
+  .Body-perifericos {
+    background-size: 44%;
+    background-position: 12% 1.2%;
+  }
+
+  .Estrellas {
+    height: 40px;
+    width: 30%;
+  }
+
+  .H4-valoraciones {
+    font-size: 23px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  header h1 {
+    font-size: 150px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    color: #9fd2e3;
+  }
+  header h2 {
+    font-size: 35px;
+    color: #eaf5f9;
+  }
+
+  .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+    font-size: 65px;
+    color: #379dc0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    font-size: 65px;
+    color: #379dc0;
+  }
+
+  .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+    font-size: 35px;
+    color: #9fd2e3;
+  }
+
+  .Barra-nav-flex {
+    justify-content: flex-end;
+  }
+
+  header {
+    height: 625px;
+  }
+
+  .Video {
+    width: 70%;
+    height: 350px;
+  }
+
+  .Gif {
+    width: 70%;
+    height: 350px;
+  }
+
+  .Filas-video-gif {
+    flex-wrap: nowrap;
+  }
+
+  .Filas-texto {
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
+  }
+
+  .Parrafo-quienes {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Lista-links-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .Texto-productos {
+    width: 100%;
+  }
+
+  .Ul-metodos-pago {
+    justify-content: space-evenly;
+  }
+
+  .Form-contactos {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .Ul-footer-contactos {
+    justify-content: space-evenly;
+  }
+
+  .Ul-footer {
+    padding-left: 44%;
+  }
+
+  .Ul-placas-madres, .Ul-procesadores, .Ul-placas-video, .Ul-gabinetes, .Ul-fuentes-poder, .Ul-memorias-ram, .Ul-discos-duros, .Ul-perifericos {
+    justify-content: space-around;
+  }
+
+  .Div-placas-madres, .Div-procesadores, .Div-placas-video, .Div-gabinetes, .Div-fuentes-poder, .Div-memorias-ram, .Div-discos-duros, .Div-perifericos {
+    width: 65%;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    margin-top: 30%;
+  }
+
+  .Body-placas-madres {
+    background-size: 50%;
+  }
+
+  .Body-procesadores {
+    background-size: 31%;
+    background-position: 50% 12%;
+  }
+
+  .Body-placas-video {
+    background-size: 40%;
+    background-position: 56% 1%;
+  }
+
+  .Body-gabinetes {
+    background-size: 48%;
+    background-position: 43% 3%;
+  }
+
+  .Body-fuentes-poder {
+    background-size: 54%;
+    background-position: 51% 5%;
+  }
+
+  .Body-memorias-ram {
+    background-size: 46%;
+    background-position: 93% 3%;
+  }
+
+  .Body-discos-duros {
+    background-size: 36%;
+    background-position: 49% 3%;
+  }
+
+  .Body-perifericos {
+    background-size: 37%;
+    background-position: 24% 3%;
+  }
+
+  .Estrellas {
+    height: 40px;
+    width: 25%;
+  }
+
+  .H4-valoraciones {
+    font-size: 35px;
+  }
+
+  .Nombre-val {
+    font-size: 17px;
+  }
+
+  .Texto-valoracion {
+    font-size: 17px;
+  }
+
+  .Div-carousel {
+    width: 50% !important;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1800px) {
+  header h1 {
+    font-size: 150px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    color: #9fd2e3;
+  }
+  header h2 {
+    font-size: 35px;
+    color: #eaf5f9;
+  }
+
+  .H3-contactos, .H3-metodos-pago, .H3-nuestros-productos, .H3-quienes-somos {
+    font-size: 65px;
+    color: #379dc0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    font-size: 65px;
+    color: #379dc0;
+  }
+
+  .H4-footer, .H4-footer-contactos, .H4-footer-ubicacion {
+    font-size: 35px;
+    color: #9fd2e3;
+  }
+
+  .Parrafo-quienes {
+    font-size: 17px;
+  }
+
+  .Texto-productos {
+    font-size: 17px;
+  }
+
+  .Ul-footer li {
+    font-size: 17px;
+  }
+
+  .Barra-nav-flex {
+    justify-content: flex-end;
+  }
+
+  header {
+    height: 800px;
+  }
+
+  .Video {
+    width: 70%;
+    height: 550px;
+  }
+
+  .Gif {
+    width: 70%;
+    height: 550px;
+  }
+
+  .Filas-video-gif {
+    flex-wrap: nowrap;
+  }
+
+  .Filas-texto {
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
+  }
+
+  .Parrafo-quienes {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Lista-links-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .Imagen-productos {
+    height: 350px;
+    width: 285px;
+  }
+
+  .Texto-productos {
+    width: 100%;
+  }
+
+  .Ul-metodos-pago {
+    justify-content: space-evenly;
+  }
+
+  .Form-contactos {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 17px;
+  }
+
+  .Ul-footer-contactos {
+    justify-content: space-evenly;
+  }
+
+  .Ul-footer {
+    padding-left: 45%;
+  }
+
+  .Ul-placas-madres, .Ul-procesadores, .Ul-placas-video, .Ul-gabinetes, .Ul-fuentes-poder, .Ul-memorias-ram, .Ul-discos-duros, .Ul-perifericos {
+    justify-content: space-around;
+  }
+
+  .Div-placas-madres, .Div-procesadores, .Div-placas-video, .Div-gabinetes, .Div-fuentes-poder, .Div-memorias-ram, .Div-discos-duros, .Div-perifericos {
+    width: 65%;
+  }
+
+  .H4-placas-madres, .H4-procesadores, .H4-placas-video, .H4-gabinetes, .H4-fuentes-poder, .H4-memorias-ram, .H4-discos-duros, .H4-perifericos {
+    margin-top: 30%;
+  }
+
+  .Body-placas-madres {
+    background-size: 50%;
+  }
+
+  .Body-procesadores {
+    background-size: 31%;
+    background-position: 50% 12%;
+  }
+
+  .Body-placas-video {
+    background-size: 31%;
+    background-position: 52% 1%;
+  }
+
+  .Body-gabinetes {
+    background-size: 38%;
+    background-position: 55% 3%;
+  }
+
+  .Body-fuentes-poder {
+    background-size: 40%;
+    background-position: 51% 5%;
+  }
+
+  .Body-memorias-ram {
+    background-size: 46%;
+    background-position: 93% 3%;
+  }
+
+  .Body-discos-duros {
+    background-size: 36%;
+    background-position: 49% 3%;
+  }
+
+  .Body-perifericos {
+    background-size: 37%;
+    background-position: 24% 3%;
+  }
+
+  .MapaGoogle {
+    width: 70%;
+  }
+
+  .Estrellas {
+    height: 35px;
+    width: 20%;
+  }
+
+  .H4-valoraciones {
+    font-size: 35px;
+  }
+
+  .Nombre-val {
+    font-size: 17px;
+  }
+
+  .Texto-valoracion {
+    font-size: 17px;
+  }
+
+  .Div-carousel {
+    width: 50% !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
